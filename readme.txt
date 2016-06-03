@@ -4,7 +4,7 @@ Donate link: http://tallythemes.com/
 Tags: carousel, image, shortcode, owl carousel, carousel shortcode, owl carousel shortcode
 Requires at least: 4
 Tested up to: 4.5.2
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,6 +56,9 @@ Below is the example of the shoercode.
 
 
 == Changelog ==
+
+= 1.1 =
+* Fixed a BUG on the linking
 
 = 1.0 =
 * initial releases

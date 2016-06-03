@@ -103,7 +103,7 @@ function imgcarsho_item_shortcode( $atts, $content = null ) {
 		if($settings['img'] !=  ''){
 			echo '<div class="ics_item">';
 				echo '<div class="ics_item_in">';
-					if( $settings['link'] != '' ){ echo '<a href="" target="'.$settings['target'].'">'; }
+					if( $settings['link'] != '' ){ echo '<a href="'.$settings['link'].'" target="'.$settings['target'].'">'; }
 						echo '<img src="'.$settings['img'].'" alt="'.$settings['alt'].'">';
 					if( $settings['link'] != '' ){ echo '</a>'; }
 				echo '</div>';
