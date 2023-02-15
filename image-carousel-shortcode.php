@@ -1,14 +1,14 @@
 <?php
 /**
  * @package image-carousel-shortcode
- * @version 1.0
+ * @version 1.1
  */
 /*
 Plugin Name: Image Carousel Shortcode
 Plugin URI: http://wordpress.org/plugins/image-carousel-shortcode/
 Description: <strong>Image Carousel Shortcode</strong> is a lightweight Image Carousel plugin for wordpress. It alets you create a beautiful responsive image carousel.
 Author: Sazzad Hu
-Version: 1.0
+Version: 1.1
 Author URI: http://sazzadh.com/
 */
 

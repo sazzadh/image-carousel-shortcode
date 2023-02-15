@@ -3,7 +3,7 @@ Contributors: sazzadh
 Donate link: http://tallythemes.com/
 Tags: carousel, image, shortcode, owl carousel, carousel shortcode, owl carousel shortcode
 Requires at least: 4
-Tested up to: 4.5.2
+Tested up to: 6.1.1
 Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -40,7 +40,7 @@ This plugin using a jquery plugin [Owl Carousel](http://www.owlcarousel.owlgraph
 
 == Frequently Asked Questions ==
 
-= What is the Shortcode and How to add zoom effect to a Image? =
+= What is the Shortcode? =
 
 Below is the example of the shoercode.
 `[ics_carousel col_large="5" col_mobile="1" col_tab="2" gap="4" dots="0" nav="1" loop="0", autoplay="1" class=""]
@@ -59,6 +59,7 @@ Below is the example of the shoercode.
 
 = 1.1 =
 * Fixed a BUG on the linking
+* Fixed Icon of left right nav
 
 = 1.0 =
 * initial releases

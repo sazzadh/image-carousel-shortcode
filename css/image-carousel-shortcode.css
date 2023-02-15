@@ -1,75 +1,80 @@
-.ics_carousel .owl-carousel{
-	overflow:hidden;	
+.ics_carousel .owl-carousel {
+  overflow: hidden;
 }
-.ics_carousel .owl-carousel .owl-stage-outer{
+.ics_carousel .owl-carousel .owl-stage-outer {
 }
-.ics_carousel .owl-carousel .owl-item img{
-	max-width:100%;
-	width:100%;
+.ics_carousel .owl-carousel .owl-item img {
+  max-width: 100%;
+  width: 100%;
 }
-
 
 /*-- Arrow Nav --*/
-.ics_carousel .owl-theme .owl-controls .owl-nav [class*=owl-] {
-    color: #fff;
-    font-size: 0px;
-    padding: 6px 9px;
-    background: rgba(0, 0, 0, 0.42);
-    display: inline-block;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    -webkit-transition: all 0.13s cubic-bezier(0.55, 0.085, 0.68, 0.53);
-    transition: all 0.13s cubic-bezier(0.55, 0.085, 0.68, 0.53);
-    margin-top: -13px;
+.ics_carousel .owl-theme .owl-controls .owl-nav [class*="owl-"] {
+  color: #fff;
+  font-size: 0px;
+  padding: 0;
+  background: rgba(0, 0, 0, 0.42);
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: all 0.13s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  transition: all 0.13s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  margin-top: -13px;
+  width: 40px;
+  height: 40px;
+  background-size: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.ics_carousel.dots_true .owl-theme .owl-controls .owl-nav [class*=owl-] {
-	margin-top: -34px;
+.ics_carousel.dots_true .owl-theme .owl-controls .owl-nav [class*="owl-"] {
+  margin-top: -34px;
 }
-.ics_carousel .owl-theme .owl-controls .owl-nav [class*=owl-]:before{
-	font-size:14px !important;
-	content: "\f104";
-	display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;	
+
+.ics_carousel .owl-theme .owl-controls .owl-nav .owl-next:before {
+  content: "\f105";
 }
-.ics_carousel .owl-theme .owl-controls .owl-nav .owl-next:before{
-	content: "\f105";	
+.ics_carousel .owl-theme .owl-controls .owl-nav .owl-prev {
+  left: -60px;
+  background-image: url(../img/left-arrow.png);
 }
-.ics_carousel .owl-theme .owl-controls .owl-nav .owl-prev{ left: -60px; }
-.ics_carousel .owl-theme .owl-controls .owl-nav .owl-next{ right: -60px; }
-.ics_carousel:hover .owl-theme .owl-controls .owl-nav .owl-prev{ left: 0px; }
-.ics_carousel:hover .owl-theme .owl-controls .owl-nav .owl-next{ right: 0px; }
+.ics_carousel .owl-theme .owl-controls .owl-nav .owl-next {
+  right: -60px;
+  background-image: url(../img/right-arrow.png);
+}
+.ics_carousel:hover .owl-theme .owl-controls .owl-nav .owl-prev {
+  left: 0px;
+}
+.ics_carousel:hover .owl-theme .owl-controls .owl-nav .owl-next {
+  right: 0px;
+}
 
 /*-- Dot Nav --*/
-.ics_carousel .owl-theme .owl-dots{
-	text-align:center;	
-	margin-top:20px;
+.ics_carousel .owl-theme .owl-dots {
+  text-align: center;
+  margin-top: 20px;
 }
 .ics_carousel .owl-theme .owl-dots .owl-dot {
-    display: inline-block;
-    zoom: 1;
+  display: inline-block;
+  zoom: 1;
 }
 .ics_carousel .owl-theme .owl-dots .owl-dot span {
-    width: 10px;
-    height: 10px;
-    margin: 5px 7px;
-    background: #d6d6d6;
-    display: block;
-    -webkit-backface-visibility: visible;
-    -webkit-transition: opacity 200ms ease;
-    -moz-transition: opacity 200ms ease;
-    -ms-transition: opacity 200ms ease;
-    -o-transition: opacity 200ms ease;
-    transition: opacity 200ms ease;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #d6d6d6;
+  display: block;
+  -webkit-backface-visibility: visible;
+  -webkit-transition: opacity 200ms ease;
+  -moz-transition: opacity 200ms ease;
+  -ms-transition: opacity 200ms ease;
+  -o-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
 }
-.ics_carousel .owl-theme .owl-dots .owl-dot.active span, 
+.ics_carousel .owl-theme .owl-dots .owl-dot.active span,
 .ics_carousel .owl-theme .owl-dots .owl-dot:hover span {
-    background: #869791;
+  background: #869791;
 }
